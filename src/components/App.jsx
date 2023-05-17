@@ -59,7 +59,10 @@ export class App extends Component {
     const dataContacts = localStorage.getItem('contacts');
     const contac = JSON.parse(dataContacts);
 
-    this.setState({ contacts: contac });
+    // если в localStorage есть данные, то запиши их в State
+    if (contac) {
+      this.setState({ contacts: contac });
+    }
   }
 
   render() {
