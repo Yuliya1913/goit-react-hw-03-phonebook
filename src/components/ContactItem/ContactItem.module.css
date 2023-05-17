@@ -1,0 +1,24 @@
+.button {
+  background-color: #ade1ae;
+  border: 1px solid blueviolet;
+  color: #1c5b12;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: rgb(173, 236, 236);
+  color: #05054a;
+}
+.item {
+  font-size: 25px;
+  font-weight: 600;
+}
+.wrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
